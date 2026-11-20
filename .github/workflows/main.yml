@@ -1,4 +1,4 @@
-defconfigfigBuild Kernel A115M
+name: Build Kernel A115M
 on:
   workflow_dispatch:
 jobs:
