@@ -23,7 +23,7 @@ jobs:
           export KBUILD_BUILD_USER=ian
           export KBUILD_BUILD_HOST=github
           mkdir -p out
-          make O=out ARCH=arm64 vendor/a115m_defconfig
+          make O=out ARCH=arm64 a11q_usa_aio_defconfig
           make -j$(nproc) O=out ARCH=arm64 \
             KCFLAGS="-Wno-unknown-warning-option -Wno-error" \
             HOSTCFLAGS="-Wno-unknown-warning-option" \
