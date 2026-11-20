@@ -13,7 +13,7 @@ jobs:
           sudo apt install -y git make python3 bc bison flex libssl-dev libelf-dev gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi lld
       - name: Clone Clang
         run: |
-          git clone --depth=1 https://github.com/kdrag0n/proton-clang.git clang
+          git clone --depth=1 https://github.com/ZyCromerZ/Clang.git clang
       - name: Clone AnyKernel3
         run: |
           git clone --depth=1 https://github.com/osm0sis/AnyKernel3.git AnyKernel3
